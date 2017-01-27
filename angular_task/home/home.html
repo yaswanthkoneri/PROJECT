@@ -1,0 +1,9 @@
+<div ng-controller="homeController">
+<div class="home_nav">
+    <h1>{{pageName}}</h1>
+    <a ui-sref="home.profile">Profile</a>
+    <a ui-sref="home.change_password">change password</a>
+    <button ng-click="logout()">logout</button>
+ </div>   
+    <div ui-view></div>
+</div>

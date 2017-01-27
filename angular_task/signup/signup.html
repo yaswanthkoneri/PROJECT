@@ -1,0 +1,23 @@
+<div ng-controller="signupController">
+    <h1>{{pageName}}</h1>
+    <form name="registerForm" ng-submit="registation()">
+        <label>Full Name :</label>
+        <input type="text" name="username" placeholder="Full Name" ng-model="registerdata.FirstName" required>
+        <br>
+        <label>Email :</label>
+        <input type="email" name="email" placeholder="Email address" ng-model="registerdata.Email" required /> </br>
+        <label>Mobile number :</label>
+        <input type="tel" name="mobile_number" placeholder="mobile number" ng-model="registerdata.MobileNumber" required /> </br>
+        <label>Password :</label>
+        <input type="password" name="password" placeholder="password" ng-model="registerdata.password" required /> </br>
+        <label>Conformation password :</label>
+        <input type="password" name="confirmation_password" placeholder="confirmation password" ng-model="registerdata.conformation_password" required /> </br>
+        <label>Date Of Birth: </label>
+        <input type="date" placeholder="DOB" name="dob_format" ng-model="registerdata.DOB" />
+        <br>
+        <label>Facebook Profile link :</label>
+        <input type="url" name="fb_profile" ng-model="registerdata.FBLink" required>
+        <br>
+        <button type="submit" value="Save">Register</button>
+        <button type="reset" ng-click="reset()">Reset</button> <a ui-sref='login'>login</a> </form>
+</div>

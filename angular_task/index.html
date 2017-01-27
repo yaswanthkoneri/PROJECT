@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular Task</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+</head>
+<!-- Angular modules starts from ng-app -->
+<body ng-app="app">
+   <div>
+        <div ui-view></div> <!--All the ui-router contents displays here -->
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="login/loginController.js"></script>
+    <script type="text/javascript" src="signup/signupController.js"></script>
+    <script type="text/javascript" src="home/homeController.js"></script>
+    <script type="text/javascript" src="profile/profileController.js"></script>
+    <script type="text/javascript" src="changepassword/changepasswordController.js"></script>
+</body>
+
+</html>

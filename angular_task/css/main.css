@@ -1,0 +1,71 @@
+h1
+{
+color:red;
+font-family:Candara;
+}
+body
+{
+	text-align:center;
+	background:gray;
+	font-family:Candara;
+	font-size:18px
+}
+form{
+		width: 500px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: white;
+		text-align: left;
+	}
+input[type="text"] {
+    
+    width:250px;
+    height: 25px;
+    padding:5px 10px;
+    border: 1px solid black;
+}
+input {
+    width:250px;
+    height: 25px;
+    padding:5px 10px;
+    border: 1px solid black;
+
+}
+label
+{
+	display: block;
+padding:5px;
+font-family:AR CENA;
+font-size:20px;
+
+}
+.home_nav a{
+    display: inline-block;
+    margin: 0 20px;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home_nav button{
+	margin: 0px;
+	border: 0px;
+	float: right;
+	padding: 5px 15px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+ button
+ {
+ 	margin-top:20px; 
+	border: 0px;
+	padding: 10px 15px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}

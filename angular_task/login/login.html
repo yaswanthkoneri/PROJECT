@@ -1,0 +1,14 @@
+<div ng-controller="loginController" class="continer">
+    <h1>{{pageName}}</h1>
+    <form ng-submit="login()">
+        <label>Email :</label>
+        <input type="email" name="email" placeholder="Email address" ng-model="loginuser.Email" required> </br>
+        </br>
+        <label>Password :</label>
+        <input type="password" name="password" placeholder="password" ng-model="loginuser.password" required>
+        <br>
+        <br>
+        <a ui-sref='signup'>signup</a>
+        <button type="submit">login</button>
+    </form>
+</div>
